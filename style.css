@@ -1,0 +1,47 @@
+html, body {
+    width: 100%;
+    height: 100%;
+
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#main {
+    width: 1200px;
+    height: 700px;
+
+    padding: 8px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    border: 1px solid black;
+}
+
+#mainScreen {
+    width: 950px;
+    height: 100%;
+
+    border: 1px solid black;
+    border-radius: 4px;
+
+    position: relative;
+}
+
+#mainInput {
+    width: 242px;
+    height: 100%;
+}
+
+#inputField {
+    border: 1px solid black;
+    border-radius: 4px;
+}
